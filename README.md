@@ -125,18 +125,3 @@ medical_assistant/
 > En cas d'urgence médicale, appelez le **15 (SAMU)** ou le **112**.
 
 ---
-
-## 🎓 Grille d'évaluation
-
-| Critère | Barème |
-|---------|--------|
-| Compréhension du fonctionnement d'un agent | 4 pts |
-| Qualité des tests et observations | 4 pts |
-| Compréhension des outils et leur rôle | 4 pts |
-| Qualité de la personnalisation (RAG, chatbot) | 4 pts |
-| Ajout d'un outil pertinent (5ème outil) | 4 pts |
-| **Total** | **20 pts** |
-
----
-
-*Projet réalisé dans le cadre du module IA Générative — Tek-Up University*
