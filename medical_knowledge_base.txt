@@ -1,0 +1,80 @@
+# Base de connaissances médicales — MedAssist
+# Format : une information par ligne
+# Utilisée par l'outil RAG (rechercher_informations_medicales)
+
+# ─── DIABÈTE ───
+Le diabète de type 1 est une maladie auto-immune où le pancréas ne produit plus d'insuline.
+Le diabète de type 2 représente 90% des cas de diabète et est lié au mode de vie et à la génétique.
+Les symptômes du diabète incluent : soif intense, urination fréquente, fatigue, vision floue.
+La glycémie à jeun normale est inférieure à 1,10 g/L (6,1 mmol/L).
+Le diabète peut être prévenu par une alimentation équilibrée, l'exercice régulier et un poids santé.
+L'hémoglobine glycquée (HbA1c) mesure la glycémie moyenne sur 2 à 3 mois, cible < 7% pour les diabétiques.
+
+# ─── TENSION ARTÉRIELLE ───
+La tension artérielle normale est inférieure à 120/80 mmHg.
+L'hypertension artérielle est définie par une tension ≥ 140/90 mmHg mesurée à plusieurs reprises.
+L'hypertension est souvent asymptomatique, d'où son surnom de "tueur silencieux".
+Les facteurs de risque d'hypertension : sel excessif, sédentarité, stress, alcool, tabac, obésité.
+L'hypotension (tension trop basse) peut causer des vertiges, malaises, et syncopes.
+La tension artérielle doit être mesurée au repos, assis, après 5 minutes de calme.
+
+# ─── CHOLESTÉROL ───
+Le cholestérol total normal doit être inférieur à 2 g/L (5,2 mmol/L).
+Le bon cholestérol (HDL) doit être supérieur à 0,40 g/L ; le mauvais (LDL) inférieur à 1,60 g/L.
+Un taux de cholestérol élevé augmente le risque de maladies cardiovasculaires.
+L'alimentation riche en graisses saturées et trans augmente le mauvais cholestérol (LDL).
+Les statines sont les médicaments les plus prescrits pour traiter l'hypercholestérolémie.
+
+# ─── GRIPPE ET INFECTIONS RESPIRATOIRES ───
+La grippe est causée par les virus Influenza A, B et C. Les symptômes : fièvre, courbatures, toux.
+La vaccination antigrippale est recommandée chaque automne, surtout pour les personnes à risque.
+Le repos, l'hydratation et les antipyrétiques sont les piliers du traitement symptomatique de la grippe.
+Une fièvre supérieure à 39,5°C chez l'adulte ou qui dure plus de 3 jours nécessite une consultation.
+Le rhume est causé par des rhinovirus et guérit spontanément en 7 à 10 jours.
+
+# ─── COVID-19 ───
+Le COVID-19 est causé par le coronavirus SARS-CoV-2, apparu en 2019.
+Les symptômes courants du COVID-19 : fièvre, toux sèche, fatigue, perte d'odorat/goût.
+Les vaccins COVID-19 réduisent significativement le risque de formes graves.
+Le COVID long peut affecter certains patients pendant des semaines ou mois après l'infection aiguë.
+
+# ─── NUTRITION ───
+L'alimentation méditerranéenne est reconnue comme l'une des plus saines au monde.
+Les besoins caloriques journaliers moyens : 2000–2500 kcal pour un homme, 1800–2000 kcal pour une femme.
+Les protéines fournissent 4 kcal/g, les glucides 4 kcal/g, et les lipides 9 kcal/g.
+Les oméga-3 (poissons gras, noix, graines de lin) protègent le système cardiovasculaire.
+Les fibres alimentaires (légumes, légumineuses, céréales complètes) améliorent le transit et réduisent le risque de cancer colorectal.
+Manger 5 fruits et légumes par jour est recommandé par l'OMS.
+
+# ─── SANTÉ MENTALE ───
+La dépression touche plus de 280 millions de personnes dans le monde selon l'OMS.
+L'anxiété chronique peut entraîner des troubles physiques comme hypertension, troubles digestifs, insomnie.
+La thérapie cognitivo-comportementale (TCC) est efficace contre la dépression et l'anxiété.
+Le sport régulier libère des endorphines et améliore significativement l'humeur.
+Le manque de sommeil chronique augmente le risque de dépression, d'obésité et de maladies cardiaques.
+
+# ─── ACTIVITÉ PHYSIQUE ───
+L'OMS recommande 150 à 300 minutes d'activité modérée par semaine pour les adultes.
+La sédentarité est un facteur de risque indépendant de maladies cardiaques, diabète et cancer.
+La marche rapide 30 minutes par jour réduit de 35% le risque de maladie cardiovasculaire.
+Le renforcement musculaire 2 fois par semaine est recommandé en plus de l'activité cardio.
+L'activité physique régulière améliore la qualité du sommeil, réduit le stress et l'anxiété.
+
+# ─── URGENCES ET SYMPTÔMES ALARMANTS ───
+Les signes d'AVC (accident vasculaire cérébral) : FAST = Face (visage tombant), Arms (bras faible), Speech (parole difficile), Time (appeler le 15).
+Les douleurs thoraciques irradiant dans le bras gauche peuvent indiquer une crise cardiaque : appeler le 15 immédiatement.
+Une douleur abdominale intense et soudaine nécessite une consultation urgente.
+Les signes de déshydratation sévère : bouche sèche, yeux enfoncés, urines foncées, confusion.
+Une température corporelle normale est de 36,1°C à 37,2°C chez l'adulte.
+
+# ─── MÉDICAMENTS COURANTS ───
+Le paracétamol est un antidouleur et antipyrétique ; dose max adulte : 4 g/jour (max 1 g par prise toutes les 6h).
+L'ibuprofène est un anti-inflammatoire non stéroïdien (AINS) ; éviter en cas d'ulcère, insuffisance rénale ou grossesse.
+Les antibiotiques ne sont efficaces que contre les bactéries, pas les virus. Ne jamais s'automédiquer.
+La résistance aux antibiotiques est une menace mondiale majeure de santé publique.
+
+# ─── RAG ET IA EN MÉDECINE ───
+Le RAG (Retrieval-Augmented Generation) combine recherche d'information et génération de texte pour répondre à partir de sources fiables.
+Un agent IA médical peut utiliser des outils pour calculer des indicateurs, rechercher des informations et générer des plans personnalisés.
+L'IA en médecine aide au diagnostic, à l'analyse d'images médicales et à la personnalisation des traitements.
+L'IA ne remplace pas le médecin : elle assiste et augmente les capacités des professionnels de santé.
